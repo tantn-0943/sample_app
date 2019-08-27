@@ -1,0 +1,31 @@
+vn:
+  # hello: "Hello world"
+  static_pages:
+    home:
+      title: Trang Chủ
+      home1: ứng dụng mẫu.
+    contact:
+      title: Liên Hệ
+      p1: Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại
+      text1: Trang Liên Hệ
+    help:
+      title: Trợ giúp
+      p1: Nhận trợ giúp Ruby on Rails Tutorial tại
+      p2: Để nhận trợ giúp trên sample app này, xem
+      help_section: Rails Tutorial help section.
+    about:
+      title: Về Chúng Tôi
+      p1: ""
+      p2: là một
+      p3: và
+      p4: để dạy phát triển web với
+      p5: Đây là một sample application cho hướng dẫn.
+      screencast_seris: screencast series
+      Ru_on_Ra: Ruby on Rails
+    array_language:
+      al1: English
+      al2: Tiếng Việt
+  language: Tiếng Việt
+  intro: Đây là ví dụ home page cho
+  base_title: "Ruby on Rails Tutorial Ứng dụng mẫu"
+  RORT: Ruby on Rails Tutorial.
