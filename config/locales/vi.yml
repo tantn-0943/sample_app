@@ -29,3 +29,12 @@ vn:
   intro: Đây là ví dụ home page cho
   base_title: "Ruby on Rails Tutorial Ứng dụng mẫu"
   RORT: Ruby on Rails Tutorial.
+  translate: "%{item}"
+  translates:
+    new: "Mới"
+    the: ""
+    by: "bởi"
+    Michael_Hartl: "Michael Hartl"
+    user: "Người dùng"
+    login: "Đăng Nhập"
+    SignUpNow: "Đăng ký ngay!"

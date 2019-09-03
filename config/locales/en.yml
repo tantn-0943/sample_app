@@ -30,4 +30,13 @@ en:
   intro: This is the home page for the
   base_title: "Ruby on Rails Tutorial Sample App"
   RORT: Ruby on Rails Tutorial.
+  translate: "%{item}"
+  translates:
+    new: "New"
+    the: "The"
+    by: "by"
+    Michael_Hartl: "Michael Hartl"
+    user: "User"
+    login: "Log In"
+    SignUpNow: "Sing Up Now!"
 

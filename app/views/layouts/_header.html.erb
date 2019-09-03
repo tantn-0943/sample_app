@@ -1,0 +1,16 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "sample app", root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t("static_pages.home.title"), root_path %></li>
+        <li><%= link_to t("static_pages.help.title"), help_path %></li>
+        <li><%= link_to t(:translate, :item=> t("translates.login")), "#" %></li>
+        <li><%= link_to_unless I18n.locale == :vn,
+          t("static_pages.array_language.al2"), locale: :vn %></li>
+        <li><%= link_to_unless I18n.locale == :en,
+          t("static_pages.array_language.al1"), locale: :en %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
