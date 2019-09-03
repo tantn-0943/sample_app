@@ -1,1 +1,27 @@
-<h1><%= t(:translate, item: t("translates.user")) %></h1>
+
+<% provide(:title, "Sign up") %>
+<h1><%= t(:translate, :item=> t("translates.SignUp")) %></h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@user, url: signup_path) do |f| %>
+      <%= render "shared/error_messages" %>
+
+      <%= f.label t(:translate, item: t("translates.name")) %>
+      <%= f.text_field :name, class: "form-control" %>
+
+      <%= f.label t(:translate, item: t("translates.email")) %>
+      <%= f.email_field :email, class: "form-control" %>
+
+      <%= f.label t(:translate, item: t("translates.password")) %>
+      <%= f.password_field :password, class: "form-control" %>
+
+      <%= f.label t(:translate, item: t("translates.password_confirmation")),
+        t(:translate, item: t("translates.password_confirmation")) %>
+      <%= f.password_field :password_confirmation, class: "form-control" %>
+
+      <%= f.submit t(:translate, item: t("translates.Create_my_account")),
+        class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>

@@ -32,11 +32,20 @@ en:
   RORT: Ruby on Rails Tutorial.
   translate: "%{item}"
   translates:
+    error: "errors"
+    name: "name"
+    email: "email"
+    password: "password"
+    password_confirmation: "Confirmation"
     new: "New"
     the: "The"
     by: "by"
     Michael_Hartl: "Michael Hartl"
     user: "User"
     login: "Log In"
-    SignUpNow: "Sing Up Now!"
+    SignUp: "Sign Up"
+    SignUpNow: "Sign Up Now!"
+    the_form_contains: "The form contains"
+    Create_my_account: "Create my account"
+    Welcome_to_Sam_App: "Welcome to the Sample App!"
 
