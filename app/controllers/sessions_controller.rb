@@ -3,16 +3,12 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    if @user&.authenticate(session_params[:password])
+    if @user&.authenticate(sess_params[:password])
       if @user.activated?
         log_in @user
         active_remember @user
         redirect_back_or @user
       else
-        message  = t(:translate,
-          item: t("translates.notacctive")) + t(:translate,
-            item: t("translates.checkyourmail"))
-        flash[:warning] = message
         redirect_to root_url
       end
     else
@@ -29,17 +25,17 @@ class SessionsController < ApplicationController
 
   private
 
-  def session_params
+  def sess_params
     params.require(:session).permit(:name, :email, :password,
       :password_confirmation)
   end
 
   def active_remember user
-    @ifremember = session_params[:remember_me] == Settings.length.remember
+    @ifremember = sess_params[:remember_me] == Settings.length.remember
     @ifremember ? remember(user) : forget(user)
   end
 
   def find_email
-    @user = User.find_by(email: session_params[:email].downcase)
+    @user = User.find_by(email: sess_params[:email].downcase)
   end
 end
