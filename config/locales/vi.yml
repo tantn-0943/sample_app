@@ -52,4 +52,6 @@ vn:
     logout: "Đăng Xuất"
     profile: "Thông tin cá nhân"
     setting: "Chỉnh Sửa"
+    remember_me: ":remember_me"
+    rememberme: "Nhớ tài khoản trên máy tính"
 
