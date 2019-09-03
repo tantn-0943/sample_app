@@ -3,3 +3,5 @@ length:
   name: 50
   email: 255
   remember: 1
+  size: 80
+  page: 10

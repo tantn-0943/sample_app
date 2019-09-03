@@ -1,4 +1,17 @@
+
 michael:
-  name: BuBu
+  name: BuBuChaCha
   email: ngoctan9811@gmail.com
   password_digest: <%= User.digest("123456") %>
+
+ngoctan:
+  name: tranngoctan
+  email: tran.ngoc.tan@sun-asterisk.com
+  password_digest: <%= User.digest("11061998") %>
+
+<% 30.times do |n| %>
+user_<%= n %>:
+  name:  <%= "User #{n}" %>
+  email: <%= "user-#{n}@example.com" %>
+  password_digest: <%= User.digest('password') %>
+<% end %>
