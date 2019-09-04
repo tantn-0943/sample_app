@@ -47,3 +47,9 @@ vn:
     the_form_contains: "Biểu mẫu có chứa"
     Create_my_account: "Tạo tài khoản mới"
     Welcome_to_Sam_App: "Chào mừng bạn đến với ứng dụng mẫu"
+    login_error: "xác thực email/password chưa đúng"
+    account: "Tài Khoản"
+    logout: "Đăng Xuất"
+    profile: "Thông tin cá nhân"
+    setting: "Chỉnh Sửa"
+

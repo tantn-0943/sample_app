@@ -12,5 +12,10 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
       }}
     end
     assert_template "users/new"
+    post login_path, params: {session: {
+      email: "ngoctan9811@gmail.com",
+      password: "123456"
+    }}
+    assert is_logged_in?
   end
 end
