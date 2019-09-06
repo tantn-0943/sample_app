@@ -34,6 +34,7 @@ group :test do
   gem "guard-minitest", "2.4.4"
   gem "minitest", "5.10.3"
   gem "minitest-reporters", "1.1.14"
+  gem "rails-controller-testing"
   gem "selenium-webdriver"
 end
 
