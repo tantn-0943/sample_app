@@ -48,4 +48,9 @@ en:
     the_form_contains: "The form contains"
     Create_my_account: "Create my account"
     Welcome_to_Sam_App: "Welcome to the Sample App!"
+    login_error: "Invalid email/password combination"
+    account: "Account"
+    logout: "Logout"
+    profile: "Profile"
+    setting: "Settings"
 
