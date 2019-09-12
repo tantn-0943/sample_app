@@ -2,3 +2,4 @@ length:
   password: 6
   name: 50
   email: 255
+  remember: 1
