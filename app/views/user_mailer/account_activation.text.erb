@@ -1,0 +1,6 @@
+<%= t(:translate, item: t("translates.hi")) %> <%= @user.name %>
+<%= @user.name %>,
+
+<%= t(:translate, item: t("translates.clicktoactive")) %>
+
+<%= edit_account_activation_url(@user.activation_token, email: @user.email) %>
